@@ -6,8 +6,7 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "nodemon server.js",
-		"test": "mocha ./tests/ --ui tdd",
-		"build": "webpack --env production --env VERCEL_ENV=$VERCEL_ENV"
+		"test": "mocha ./tests/ --ui tdd"
 	},
 	"engines": {
 		"node": "18.x"
