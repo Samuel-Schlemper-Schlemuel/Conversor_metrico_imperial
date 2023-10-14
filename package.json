@@ -6,7 +6,8 @@
 	"main": "server.js",
 	"scripts": {
 		"start": "nodemon server.js",
-		"test": "mocha ./tests/ --ui tdd"
+		"test": "mocha ./tests/ --ui tdd",
+		"build": "webpack --env production --env VERCEL_ENV=$VERCEL_ENV"
 	},
 	"dependencies": {
 		"body-parser": "^1.20.2",
